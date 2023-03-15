@@ -28,9 +28,9 @@ body{
     
 }
 .container picture img{
-    filter: brightness(0.7) sepia(100%) hue-rotate(277deg);
+    filter: grayscale(100%) contrast(60%) brightness(50%) sepia(55%) saturate(6) opacity(5) hue-rotate(235deg);
     width: 100%;
-    opacity: 0.8;
+    
 }
 .details{
     width: 90%;
@@ -71,7 +71,7 @@ body{
     text-align: center;
     color:var(--white-main-heading-stats);
     font-family: var(--font-family-inter);
-    font-size: 25px;
+    font-size: 23px;
 }
 .stats span{
     text-transform: uppercase;
